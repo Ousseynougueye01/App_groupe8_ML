@@ -6,6 +6,8 @@ Created on Sun Feb  4 21:18:34 2024
 """
 
 from pathlib import Path
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import missingno as msno
 import numpy as np
